@@ -28,8 +28,9 @@ def simps(array,h):
     if len(array) < 3:
         print("Minimum y (ordinate) is 3")
 
-
     return result
 
-a = simps([2,3,5], 2)
-print(a)
+
+
+area = simps([2,3,5], 2)
+print("Total approximate area is {} m^2".format(area))
